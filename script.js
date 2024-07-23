@@ -68,7 +68,7 @@ console.log(
 // even number
 
 
-for(let i=0;i<=50; i++){
+for(let i=0;i<=10; i++){
     if (i % 2 ==0){
         console.log(i)
     }
@@ -79,7 +79,7 @@ console.log("\n\n\n\n\n")
 
 // prime numbers
 
-
+function print(){
 
 //largest number
 
@@ -104,3 +104,47 @@ for(let i=0; i<array.length; i++){
     }
 }
 console.log(b);
+}
+print();
+
+
+console.log("\n\n\n\n\n")
+
+{
+    function update(a){
+        a=20
+        console.log("a inside the update function:",a)
+    }
+    let a=10;
+    console.log("a1:",a);
+
+    update(a);
+    console.log("a2:",a);
+console.log("\n\n")
+    function updatearr(arr){
+        arr[0]=100;
+        console.log("inside array:",arr);
+    }
+    let arr =[1,2,3,4,5];
+    console.log("arr1",arr);
+
+    updatearr(arr);
+    console.log("arr2",arr);
+}
+console.log("\n\n\n")
+// {
+//     function outerFuntion(){
+//         let outerVariable = "from outer function";
+
+//         function innFunction(){
+//             function innerfunction1(){
+//                 function innerfunction2(){
+//                     console.log("outerVariable: ", outerVariable);
+
+//                 }
+//             }
+//         }
+
+//     }
+
+// }
