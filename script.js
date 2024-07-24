@@ -148,3 +148,26 @@ console.log("\n\n\n")
 //     }
 
 // }
+
+
+
+let num=13;
+let count=0;
+ for(let i=2; i<=num/2; i++){
+    if(num % i == 0){
+        count++;
+    }
+ }
+ if(count == 0){
+    console.log("prime number")
+    
+ }else{
+    console.log("not a prime number")
+ }
+
+
+ // Dom 
+let text= document.getElementById('text');
+console.log("text:",text);
+
+let text_content= text.textContent;
